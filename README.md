@@ -4,4 +4,10 @@ IWAS
 HOW TO PLAY: avoid responsibilities- este, enemies, hit a high score
 
 CONTROLS:
-	Movement (arrow keys)
+	v.1: Movement (WASD)
+			- move 0-9 units in any direction
+			- confirm movement with Y/N
+
+Compile and run instructions:
+	Compile cmd: javac -d . *.java && jar cfm iwas.jar Manifest.txt *.class
+	Run cmd: java -jar iwas.jar
