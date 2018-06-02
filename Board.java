@@ -8,6 +8,7 @@ public class Board {
 	protected Player ship = new Player();
 	protected int enemy_count;
 	protected boolean end_game = false;
+	protected GUI game_GUI = new GUI();
 
 	public Board() {
 		generateEnemies();

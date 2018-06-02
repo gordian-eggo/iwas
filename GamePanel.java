@@ -6,4 +6,11 @@ import java.util.*;
 
 public class GamePanel extends JPanel {
 
+<<<<<<< Updated upstream
+=======
+	public GamePanel() {
+
+	}
+	
+>>>>>>> Stashed changes
 }
