@@ -8,11 +8,9 @@ public class GUI {
 	public GUI() {
 		Frame frame = new Frame("Iwas");
 
-<<<<<<< Updated upstream
 		Container contain = frame.getContentPane();
 		contain.setLayout(new BorderLayout());
 		
-=======
 		Container container = frame.getContentPane();
 		container.setLayout(new BorderLayout());
 
@@ -35,7 +33,6 @@ public class GUI {
 		frame.pack();
 		frame.setVisible(true);
 
->>>>>>> Stashed changes
 	}
 
 }
