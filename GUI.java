@@ -1,17 +1,16 @@
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import java.awt.event.KeyListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
-import java.awt.BorderLayout;
-import java.awt.GridLayout;
-import java.awt.Dimension;
-import java.awt.Container;
-import java.awt.Color;
+import javax.swing.*;
+import java.awt.event.*;
+import java.awt.*;
+import java.lang.Thread;
 
 public class GUI {
-	
+
+	public GUI() {
+		Frame frame = new Frame("Iwas");
+
+		Container contain = frame.getContentPane();
+		contain.setLayout(new BorderLayout());
+		
+	}
+
 }

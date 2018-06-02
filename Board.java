@@ -27,4 +27,5 @@ public class Board {
 		ship.yPos = 50;
 
 	}
+	
 }
