@@ -14,6 +14,7 @@ FEATURES:
 	- player shield strength increases for every 10 enemies avoided. Works up to 3x original 
 	  shield strength
 	- enemy speed ranges from 1-5
+	- 3 lives per player
 
 Compile and run instructions:
 	Compile cmd: javac -d . *.java && jar cfm iwas.jar Manifest.txt *.class

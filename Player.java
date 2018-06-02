@@ -11,7 +11,7 @@ public class Player extends Entity {
 		findInitialPosition();
 	}
 
-	void findInitialPosition() {	// centers the player on the lower half of the screen 
+	void findInitialPosition() {	// centers the player on the lower half of the screen (graphics function)
 
 	}
 

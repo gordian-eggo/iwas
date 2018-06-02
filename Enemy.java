@@ -14,7 +14,7 @@ public class Enemy extends Entity {
 	int randomizePosition() {			// randomize enemy's x-coordinate
 		
 		Random x_coor = new Random();
-		//x = rand.nextInt()
+		xPos = x_coor.nextInt(50) + 1;
 		return xPos;
 
 	}
@@ -28,7 +28,18 @@ public class Enemy extends Entity {
 	}
 
 	void advance() {					// enemy moves forward
-		this.yPos++;
+		try {
+			switch(advance_speed) {
+				case 1: this.yPos++;
+				case 2: this.yPos = this.yPos + 2;
+				case 3: this.yPos = this.yPos + 3;
+				case 4: this.yPos = this.yPos + 4;
+				case 5: this.yPos = this.yPos + 5;
+				default: System.out.println("System error");
+			}
+		} catch (Exception e) {
+			System.out.println(e);
+		}
 	}
 
 
