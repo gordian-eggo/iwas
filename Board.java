@@ -4,8 +4,8 @@ import java.io.*;
 public class Board {
 
 	protected Enemy enemy;
-	protected ArrayList<Enemy> hive = new ArrayList<Enemy>();
 	protected Player ship = new Player();
+	protected ArrayList<Enemy> hive = new ArrayList<Enemy>();
 	protected int enemy_count;
 	protected boolean end_game = false;
 	protected GUI game_GUI = new GUI();

@@ -15,7 +15,7 @@ public class GUI {
 		container.setLayout(new BorderLayout());
 
 		GamePanel center = new GamePanel();
-		center.setLayout(new BorderLayout());
+		center.setLayout(new GridLayout(3,0));
 		center.setBackground(Color.BLACK);
 
 		JButton start = new JButton("Start Game");
@@ -26,7 +26,7 @@ public class GUI {
 			}
 		});
 
-		center.add(start, BorderLayout.CENTER);
+		center.add(start);
 
 		container.add(center, BorderLayout.CENTER);
 
